@@ -4,8 +4,8 @@ Este proyecto muestra de forma tridimensional cómo el algoritmo de descenso de 
 El objetivo es ofrecer una visualización intuitiva del proceso de optimización en un modelo de regresión lineal simple.
 El script genera datos de ejemplo que siguen una relación lineal con ruido y aplica el descenso de gradiente para ajustar los parámetros del modelo (m y b). 
 
-# Características
-
+Características
+-----------
 - Representación 3D de la **superficie de coste** en función de m y b.
 - **Trayectoria del descenso de gradiente** mostrada como una línea roja que desciende sobre la superficie.
 - Cálculo manual del **Error Cuadrático Medio (MSE)** en cada iteración.
@@ -13,8 +13,8 @@ El script genera datos de ejemplo que siguen una relación lineal con ruido y ap
 - Visualización interactiva mediante matplotlib en 3D.
 
 
-# Conceptos
-
+Conceptos
+-----------
 El modelo busca ajustar una recta de la forma:
 ```math
 \begin{aligned}
@@ -43,7 +43,8 @@ Donde:
 - N es el número de muestras
 
 
-# Requisitos
+Requisitos
+-----------
 ```
 pip install matplotlib
 ```
@@ -51,13 +52,15 @@ pip install matplotlib
 pip install numpy
 ```
 
-# Ejecución
+Ejecución
+-----------
 ```
 python gradient_descent_surface.py
 ```
 Se abrirá una ventana mostrando una superficie 3D con el recorrido del descenso de gradiente.
 
-# Resultado
+Resultado
+-----------
 ![Descenso de Gradiente](Gradient-Descent.png)
 
 - Superficie de coste: representa el error MSE para cada combinación de m y b.
